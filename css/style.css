@@ -93,4 +93,10 @@ body {
     letter-spacing: 1px;
     border: 1px solid white;
     border-radius: 50px;
+    trans
+}
+
+.btn1:hover{
+    text-decoration: none;
+    background-color: #a3297a;
 }
