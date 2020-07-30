@@ -38,4 +38,5 @@
 
 .navbar-toggle:hover {
     background-color: #a3297a !important;
+    transition:all 0.5s ease-in;
 }
