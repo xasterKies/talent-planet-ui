@@ -106,6 +106,10 @@ body {
     border-color: #a3297a;
 }
 
+.social-network a{
+    transition: all 0.5 ease-in;
+}
+
 .social-network a.fa {
     border: 1px solid white;
     padding: 10px;
