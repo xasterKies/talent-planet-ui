@@ -6,7 +6,7 @@
 
 
 .name {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: solid;
     padding-bottom: 15px;
     padding-left: 5px;
@@ -16,4 +16,5 @@
 
 .navbar {
     padding: 25px 0px;
+    background-color: #290a1f !important;
 }
