@@ -103,6 +103,21 @@ body {
     border-color: #a3297a;
 }
 
-.social-networks a.fa {
+.social-network a.fa {
     border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5 ease-in;
+}
+
+.social-network a.fa:hover{
+    text-decoration: none;
+    background-color: #a3297a;
+    border: 1px #a3297a;
+
+    
 }
