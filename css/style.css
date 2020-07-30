@@ -43,3 +43,7 @@
     background-color: #a3297a !important;
     transition:all 0.5s ease-in;
 }
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent !important;
+}
