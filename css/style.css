@@ -6,16 +6,25 @@
 
 
 .name {
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: solid;
     padding-bottom: 15px;
     padding-left: 5px;
-    font-weight: bold;
+    font-weight: 0.5;
     color: #ffffff
 }
 
 .navbar {
     padding: 25px 0px;
-    background-color: #290a1f !important;
+    background-color: #202020 !important;
     border-bottom: none !important;
+}
+
+.navbar ul li a {
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.navbar ul li a:hover {
+    color: 
 }
