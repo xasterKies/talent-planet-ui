@@ -23,8 +23,9 @@
 .navbar ul li a {
     color: white !important;
     letter-spacing: 1px;
+    transition: all 0.5s ease-in;
 }
 
 .navbar ul li a:hover {
-    color: 
+    color: #a3297a !important;
 }
