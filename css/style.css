@@ -87,7 +87,7 @@ body {
 
 
 .btn1{
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 10px 30px;
     background-color: transparent;
     color: white;
@@ -98,7 +98,7 @@ body {
 }
 
 .btn1:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     background-color: #a3297a;
     border-color: #a3297a;
 }
