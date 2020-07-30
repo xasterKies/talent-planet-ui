@@ -94,6 +94,6 @@ body {
     background-color: transparent;
     color: white;
     letter-spacing: 1px;
-    font-size: 13px;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-radius: 50px;
 }
