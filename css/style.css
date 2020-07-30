@@ -58,3 +58,8 @@ body {
     border-radius: 50px;
 }
 
+.slider {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/kemda\ sandra\ winner\ of\ slam\ the\ skill.jpg');
+}
