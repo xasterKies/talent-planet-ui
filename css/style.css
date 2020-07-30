@@ -27,6 +27,10 @@ body {
     border-bottom: none !important;
 }
 
+.navbar-inverse{
+    background-color: transparent !important;
+}
+
 .navbar ul li a {
     color: white !important;
     letter-spacing: 1px;
