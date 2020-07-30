@@ -125,3 +125,7 @@ body {
     transition: all 0.5 ease-in !important;
 
 }
+
+.con-text{
+    color: white;
+}
