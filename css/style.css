@@ -87,6 +87,7 @@ body {
 
 
 .btn1{
+    text-decoration: none;
     padding: 10px 30px;
     background-color: transparent;
     color: white;
