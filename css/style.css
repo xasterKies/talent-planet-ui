@@ -72,3 +72,9 @@ body {
     background: rgba(0,0,0,0.65);
     position: relative;
 }
+
+.slider-content{
+    position: absolute;
+    top: 39px;
+    width: 100%;
+}
