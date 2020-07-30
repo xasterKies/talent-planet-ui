@@ -1,12 +1,12 @@
 .img-responsive {
-    margin-top: -45px;
+    margin-top: -41px;
     height: 100px;
     width: 100px;
 }
 
 
 .name {
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: solid;
     padding-bottom: 15px;
     padding-left: 5px;
@@ -15,5 +15,5 @@
 }
 
 .navbar {
-    padding: 22px 0px;
+    padding: 25px 0px;
 }
