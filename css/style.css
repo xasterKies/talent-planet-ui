@@ -24,7 +24,6 @@ body {
 
 .navbar {
     padding: 25px 0px;
-    background-color: #202020 !important;
     border-bottom: none !important;
 }
 
@@ -119,5 +118,5 @@ body {
     background-color: #a3297a;
     border: 1px #a3297a;
 
-    
+
 }
