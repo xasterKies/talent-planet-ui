@@ -102,3 +102,7 @@ body {
     background-color: #a3297a;
     border-color: #a3297a;
 }
+
+.social-networks a.fa {
+    border: 1px solid white;
+}
