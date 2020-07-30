@@ -88,3 +88,13 @@ body {
     font-size: 60px;
     margin-right: 7px;
 }
+
+.btn1{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+}
