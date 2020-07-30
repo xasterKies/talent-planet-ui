@@ -31,3 +31,11 @@
     color: #a3297a !important;
     font-weight: bold;
 }
+
+.navbar-toggle {
+    border: solid white !important;
+}
+
+.navbar-toggle:hover {
+    background-color: #a3297a !important;
+}
