@@ -129,3 +129,10 @@ body {
 .con-text{
     color: white;
 }
+
+
+.slider .text {
+    display: inline;
+    font-size: 40px;
+    color: #ffffff;
+}
