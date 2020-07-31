@@ -152,4 +152,5 @@ body {
     overflow: hidden;
     padding: 25px 35px;
     position: relative;
+    transition: all 0.5 ease 0s;
 }
