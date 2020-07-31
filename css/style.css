@@ -162,5 +162,6 @@ body {
     height: 300%;
     position: absolute;
     transform: rotate(45deg);
-    width: ;
+    width: 120%;
+    z-index: -9;
 }
