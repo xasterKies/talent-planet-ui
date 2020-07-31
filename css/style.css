@@ -236,3 +236,13 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
+.img-wrapper{
+    overflow: hidden;
+
+}
+
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
