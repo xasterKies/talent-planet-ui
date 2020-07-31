@@ -8,7 +8,7 @@ jQuery(document).ready({
 
         else
             if($("nav").hasClass('secondary')){
-                $("nav").removeClass('secondary')
+                $("nav").removeClass('secondary');
             }
 
     });
