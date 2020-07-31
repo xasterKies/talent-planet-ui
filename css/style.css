@@ -131,7 +131,7 @@ body {
 }
 
 
-.slider .text, slider typed-cursor{
+.slider .text, .slider .typed-cursor{
     display: inline;
     font-size: 40px;
     color: #ffffff;
