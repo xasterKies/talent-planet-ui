@@ -5,11 +5,11 @@ body {
     height: 2000px;
 }
 
-.img-responsive {
+/* .img-responsive {
     margin-top: -37px;
     height: 100px;
     width: 100px;
-}
+} */
 
 
 .name {
@@ -227,3 +227,4 @@ body {
 .service-area{
     margin-bottom: -5px;
 }
+
