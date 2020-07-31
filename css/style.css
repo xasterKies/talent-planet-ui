@@ -176,7 +176,7 @@ body {
 
 .service-wrap:hover::before{
     left: -27px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .service-wrap::after{
@@ -186,5 +186,24 @@ body {
 
 .service-wrap:hover::after{
     right: -27px;
-    opacity: 0.8;
+    opacity: 0.7;
+}
+
+.service-wrap:hover{
+    color: white;
+
+}
+
+.service-wrap:hover h3{
+    color: white;
+}
+
+.service-wrap:hover h3:after{
+    background-color: white;
+}
+
+.service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
 }
