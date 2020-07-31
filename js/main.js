@@ -1,3 +1,17 @@
+jQuery(document).ready({
+    $(window).scroll(function () {
+        
+        var top = $(window).scrollTop();
+        if(top >= 60){
+            $("nav").addClass('secondary')
+        }
+
+        else
+        
+
+    });
+
+});
 
 var typed = new Typed('.text', {
     // Waits 1000ms after typing "First"
@@ -5,3 +19,4 @@ var typed = new Typed('.text', {
     typeSpeed: 40,
     loop: true
   });
+
