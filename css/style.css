@@ -232,4 +232,7 @@ body {
     margin-top: 25px;
 }
 
-.row.no-gutters [class*=-col]
+.row.no-gutters [class*=-col] {
+    padding-left: 0;
+    padding-right: 0;
+}
