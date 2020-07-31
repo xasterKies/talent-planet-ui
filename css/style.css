@@ -160,4 +160,6 @@ body {
 .service-wrap::before, .service-wrap::after{
     content: "";
     height: 300%;
+    position: absolute;
+    
 }
