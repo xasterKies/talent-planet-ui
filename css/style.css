@@ -24,10 +24,11 @@ body {
 .navbar {
     padding: 25px 0px;
     border-bottom: none !important;
+    transition: all 0.5 fade-in;
 }
 
 .navbar-inverse{
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
 .navbar ul li a {

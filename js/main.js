@@ -1,6 +1,6 @@
-jQuery(document).ready({
+jQuery(document).ready(function(){
 
-    $(window).scroll(function () {
+    $(window).scroll(function(){
         var top = $(window).scrollTop();
         if(top >= 60){
             $("nav").addClass('secondary');
