@@ -176,7 +176,7 @@ body {
 
 .service-wrap:hover::before{
     left: -27px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .service-wrap::after{
