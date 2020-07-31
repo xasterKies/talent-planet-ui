@@ -207,3 +207,8 @@ body {
     margin-bottom: 20px;
     transition: all 0.5s ease-in-out;
 }
+
+.service-wrap:hover .service-icon i{
+    transform:rotate(360deg);
+}
+
