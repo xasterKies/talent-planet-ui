@@ -246,3 +246,8 @@ body {
     transition: transform 0.5s ease;
     width: 100%;
 }
+
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
