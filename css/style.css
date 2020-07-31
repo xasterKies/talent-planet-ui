@@ -168,3 +168,9 @@ body {
     opacity: 0;
     background-color: #a3297a;
 }
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;
+}
+
