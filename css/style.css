@@ -231,3 +231,5 @@ body {
 .work{
     margin-top: 25px;
 }
+
+.row.no-gutters [class*=-col]
