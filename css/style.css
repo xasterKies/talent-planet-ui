@@ -212,3 +212,9 @@ body {
     transform:rotate(360deg);
 }
 
+.service-wrap h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+}
