@@ -183,3 +183,8 @@ body {
     right: -27px;
     opacity: 0.8;
 }
+
+.service-wrap::after{
+    right: -27px;
+    opacity: 0.8;
+}
