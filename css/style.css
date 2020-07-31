@@ -218,3 +218,8 @@ body {
     padding-bottom: 15px;
     position: relative;
 }
+
+.service-wrap p {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
