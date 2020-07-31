@@ -180,11 +180,11 @@ body {
 }
 
 .service-wrap::after{
-    right: -27px;
-    opacity: 0.8;
+    right: 100%;
+    bottom: -37px;
 }
 
-.service-wrap::after{
+.service-wrap:hover::after{
     right: -27px;
     opacity: 0.8;
 }
