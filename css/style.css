@@ -165,7 +165,7 @@ body {
     width: 120%;
     z-index: -9;
     transition: all 0.5s;
-    opacity: 0.6;
+    opacity: 0;
     background-color: #a3297a;
 
 }
