@@ -12,6 +12,11 @@ jQuery(document).ready(function(){
             }
     });
 
+    $('').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+    });
+
 });
 
 var typed = new Typed('.text', {
