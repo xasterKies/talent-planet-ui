@@ -165,8 +165,9 @@ body {
     width: 120%;
     z-index: -9;
     transition: all 0.5s;
-    opacity: 0;
+    opacity: 0.6;
     background-color: #a3297a;
+
 }
 
 .service-wrap::before{
@@ -176,7 +177,7 @@ body {
 
 .service-wrap:hover::before{
     left: -27px;
-    opacity: 1;
+    opacity: 0.6;
 }
 
 .service-wrap::after{
@@ -186,7 +187,7 @@ body {
 
 .service-wrap:hover::after{
     right: -27px;
-    opacity: 1;
+    opacity: 0.6;
 }
 
 .service-wrap:hover{
