@@ -12,7 +12,7 @@ jQuery(document).ready(function(){
             }
     });
 
-    $('').magnificPopup({
+    $('.work').magnificPopup({
         delegate: 'a',
         type: 'image'
     });
