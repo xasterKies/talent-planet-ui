@@ -177,7 +177,7 @@ body {
 
 .service-wrap:hover::before{
     left: -27px;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .service-wrap::after{
@@ -187,7 +187,7 @@ body {
 
 .service-wrap:hover::after{
     right: -27px;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .service-wrap:hover{
