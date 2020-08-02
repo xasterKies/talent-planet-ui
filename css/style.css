@@ -257,3 +257,7 @@ body {
 .team{
     margin-top: 50px;
 }
+
+.team-member{
+    margin: 0 25px;
+}
