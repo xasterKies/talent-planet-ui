@@ -286,3 +286,8 @@ h4.team-member-designation{
 .social-list{
     padding-left: 0px;
 }
+
+.social-list li{
+    list-style: none;
+    display: inline-block;
+}
