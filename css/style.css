@@ -291,5 +291,6 @@ h4.team-member-designation{
     list-style: none;
     display: inline-block;
     width: 32px;
-    height: ;
+    height: 32px;
+    margin-right: 6px;
 }
