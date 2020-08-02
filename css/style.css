@@ -282,3 +282,7 @@ h4.team-member-designation{
     margin-top: 5px;
     text-transform: capitalize;
 }
+
+.social-list{
+    padding-left: 0px;
+}
