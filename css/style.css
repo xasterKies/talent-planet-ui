@@ -265,3 +265,7 @@ body {
 .team-member-info{
     padding: 10px 0 30px 0;
 }
+
+h4.team-member-name{
+    font-size: 14px;
+}
