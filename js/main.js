@@ -20,6 +20,10 @@ jQuery(document).ready(function(){
         }
     });
 
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+      });
+
 });
 
 var typed = new Typed('.text', {
