@@ -32,6 +32,7 @@ var typed = new Typed('.text', {
     loop: true
   });
 
+  
 // $('owl-carousel').owlCarousel({
 //     loop: true,
 //     margin: 10,
