@@ -551,6 +551,8 @@ h4.team-member-designation{
 }
 
 .footer{
-    height: 200px;
     background-image: url('../img/Footer-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
