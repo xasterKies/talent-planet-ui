@@ -438,3 +438,7 @@ h4.team-member-designation{
     transform: scale(.8);
     transition: all 0.5s;
 }
+
+.latest-news-wrap:hover .news-img:before{
+    opacity
+}
