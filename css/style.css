@@ -427,5 +427,7 @@ h4.team-member-designation{
 }
 
 .news-img:before{
-    position
+    position: absolute;
+    left:0;
+    rig
 }
