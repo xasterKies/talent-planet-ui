@@ -312,5 +312,7 @@ h4.team-member-designation{
     top: -50px;
     overflow: hidden;
     min-height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
