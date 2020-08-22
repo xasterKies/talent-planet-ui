@@ -307,5 +307,10 @@ h4.team-member-designation{
 
 .team-man{
     position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: -50px;
+    overflow: hidden;
+    min-height: 100px;
 }
 
