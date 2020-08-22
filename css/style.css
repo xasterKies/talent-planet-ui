@@ -529,8 +529,9 @@ h4.team-member-designation{
 
 }
 
-@media(min-width: 576px) {
+@media(max-width: 576px) {
     .about-p p{
         font-size: 14px;
+        margin: 25px;
     }
 }
