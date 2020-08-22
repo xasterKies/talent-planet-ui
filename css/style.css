@@ -556,4 +556,7 @@ h4.team-member-designation{
     background-attachment: fixed;
     padding-top: 90px;
     padding-bottom: 90px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
 }
