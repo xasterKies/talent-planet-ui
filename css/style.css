@@ -369,4 +369,8 @@ h4.team-member-designation{
 .team-social-network i{
     height: 40px;
     width: 40px;
+    text-align: center;
+    color: #a3297a;
+    border-radius: 50%;
+    border: 3px solid #a3297a;
 }
