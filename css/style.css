@@ -375,3 +375,9 @@ h4.team-member-designation{
     border: 3px solid #a3297a;
     padding-top: 10px;
 }
+
+.team-block {
+    text-align: center;
+    position: relative;
+    
+}
