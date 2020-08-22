@@ -403,7 +403,7 @@ h4.team-member-designation{
 .team-block:hover .team-description p{
     color: #f9f9f9;
     transition: 0.5s ease-in;
-    -webkit-transition: .3s ease-in;
-    -moz-transition: .3s ease-in;
-    -o-transition: .3s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
 }
