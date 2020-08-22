@@ -348,3 +348,12 @@ h4.team-member-designation{
     padding: 25px 15px;
     line-height: 24px;
 }
+
+.team-description{
+    background-color: white;
+}
+
+.team-social-network{
+    text-align: center;
+    padding-bottom: 15px;
+}
