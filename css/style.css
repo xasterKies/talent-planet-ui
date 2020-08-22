@@ -379,5 +379,9 @@ h4.team-member-designation{
 .team-block {
     text-align: center;
     position: relative;
+
+}
+
+.team-block:hover .team-description {
     
 }
