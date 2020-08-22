@@ -391,11 +391,16 @@ h4.team-member-designation{
 }
 
 .team-block:hover .team-title h3,
-.team-block:hover .team-title span:hover,
-.team-social-network i:hover{
+.team-block:hover .team-title span,
+.team-social-network i{
     color: white;
     transition: .4s ease-in;
     -webkit-transition: .3s ease-in;
     -moz-transition: .3s ease-in;
     -o-transition: .3s ease-in;
+}
+
+.team-social-network i:hover {
+    color: white;
+    border-radius: 50%;
 }
