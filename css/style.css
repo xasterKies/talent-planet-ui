@@ -499,3 +499,11 @@ h4.team-member-designation{
     margin-top: 20px;
 
 }
+
+.news-content a{
+    font-size: 14px;
+    background-color: #a3297a;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.5s ease-in;
+}
