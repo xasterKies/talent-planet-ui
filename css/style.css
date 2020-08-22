@@ -439,7 +439,7 @@ h4.team-member-designation{
     transition: all 0.5s;
 }
 
-.latest-news-wrap:hover .news-img:before{
+.news-img:hover .news-img:before{
     opacity: .5;
     transform: scale(1);
 }
