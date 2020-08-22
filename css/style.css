@@ -440,5 +440,6 @@ h4.team-member-designation{
 }
 
 .latest-news-wrap:hover .news-img:before{
-    opacity
+    opacity: .5;
+    transform: scale(1);
 }
