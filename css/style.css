@@ -567,5 +567,7 @@ h4.team-member-designation{
 }
 
 .social-icon .fa{
-    font
+    font-size:30px;
+    color: #a3297a;
+    width: 80px;
 }
