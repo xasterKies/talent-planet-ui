@@ -384,9 +384,13 @@ h4.team-member-designation{
 .team-block:hover .team-description {
     background-color: #a3297a;
     color: white;
+    transition: .4s ease-in;
     -webkit-transition: .3s ease-in;
     -moz-transition: .3s ease-in;
     -o-transition: .3s ease-in;
 }
 
-.
+.team-block:hover .team-title h3,
+.team-block:hover .team-title span{
+    color: white;
+}
