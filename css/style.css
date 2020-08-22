@@ -436,4 +436,5 @@ h4.team-member-designation{
     content: "";
     opacity: 0;
     transform: scale(.8);
+    transition: all 0.5s;
 }
