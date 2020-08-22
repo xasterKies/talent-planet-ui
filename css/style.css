@@ -578,6 +578,11 @@ h4.team-member-designation{
     border: 10px solid #ffc9ed;
 }
 
-.social-icon a:hover{
-    border: 10px solid white;
+.social-icon a:hover .fa{
+    border-radius: 10px solid white;
+}
+
+.bordernow{
+    width:80px;
+
 }
