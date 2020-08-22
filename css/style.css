@@ -344,5 +344,7 @@ h4.team-member-designation{
 
 .team-block p {
     color: dimgray;
-    
+    font-size: 14px;
+    padding: 25px 15px;
+    line-height: 24px;
 }
