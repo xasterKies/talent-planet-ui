@@ -413,4 +413,7 @@ h4.team-member-designation{
     background: #a3297a;
     color: white;
     transition: .4s ease-in;
+    -webkit-transition: .6s ease-in;
+    -moz-transition: .6s ease-in;
+    -o-transition: .6s ease-in;
 }
