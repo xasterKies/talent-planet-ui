@@ -314,5 +314,8 @@ h4.team-member-designation{
     min-height: 100px;
     width: 100px;
     height: 100px;
+    min-width: 100px;
+    border: 5px solid #a3297a;
+    border-radius: 50%;
 }
 
