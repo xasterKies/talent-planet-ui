@@ -400,7 +400,3 @@ h4.team-member-designation{
     -o-transition: .3s ease-in;
 }
 
-.team-social-network i:hover {
-    color: white;
-    border-radius: 50%;
-}
