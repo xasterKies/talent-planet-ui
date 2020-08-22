@@ -577,3 +577,7 @@ h4.team-member-designation{
     transition: .3s ease-in;
     border: 10px solid #ffc9ed;
 }
+
+.social-icon a:hover{
+    
+}
