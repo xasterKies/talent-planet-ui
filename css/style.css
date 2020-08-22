@@ -514,3 +514,8 @@ h4.team-member-designation{
     background-color: transparent;
     color: #a3297a;
 }
+
+.about{
+    height: 400px;
+    background-color: #f9f9f9;
+}
