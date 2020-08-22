@@ -461,3 +461,12 @@ h4.team-member-designation{
     font-weight: 700;
     font-size: 16px;
 }
+
+.news-content{
+    padding: 20px;
+    margin-left: 3px;
+}
+
+.news-content i{
+    font-size: 18px;
+}
