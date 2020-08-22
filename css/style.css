@@ -570,4 +570,10 @@ h4.team-member-designation{
     font-size:30px;
     color: #a3297a;
     width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    line-height: 2;
+    transition: .3s ease-in;
+    border: 10px solid #ff9cde;
 }
