@@ -522,7 +522,8 @@ h4.team-member-designation{
 }
 
 .about-p p{
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 75px;
+    letter-spacing: 0.1;
 
 }
