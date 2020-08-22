@@ -511,7 +511,6 @@ h4.team-member-designation{
 .news-content a:hover{
     font-size: 14px;
     border: 1px solid #a3297a;
-    border-radius: 80%;
     background-color: transparent;
     color: #a3297a;
 }
