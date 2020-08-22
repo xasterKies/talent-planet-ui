@@ -455,4 +455,7 @@ h4.team-member-designation{
     padding: 10px;
 }
 
-.date 
+.date span{
+    dispaly: block;
+    color: white;
+}
