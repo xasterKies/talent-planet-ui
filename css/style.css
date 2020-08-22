@@ -492,3 +492,9 @@ h4.team-member-designation{
 .news-content .fa-instagram{
     color: #c441419d;
 }
+
+.news-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+    
+}
