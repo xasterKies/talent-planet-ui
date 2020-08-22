@@ -316,6 +316,7 @@ h4.team-member-designation{
     height: 100px;
     min-width: 100px;
     border: 5px solid #a3297a;
+    opacity: 0.7;
     border-radius: 50%;
 }
 
@@ -385,5 +386,7 @@ h4.team-member-designation{
 .team-block:hover .team-description {
     background-color: #a3297a;
     color: white;
-    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
 }
