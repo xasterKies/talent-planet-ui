@@ -475,3 +475,8 @@ h4.team-member-designation{
     font-size: 18px;
     display: inline-block;
 }
+
+.news-content .fa{
+    padding: 10px 10px;
+    cursor: pointer;
+}
