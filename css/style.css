@@ -553,6 +553,7 @@ h4.team-member-designation{
 .footer{
     background-image: url('../img/Footer-background.jpg');
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
