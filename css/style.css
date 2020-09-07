@@ -600,5 +600,7 @@ ul{
 }
 
 #filter-list{
-    
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
 }
