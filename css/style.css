@@ -632,5 +632,20 @@ ul{
 
 .gallery-outer{
     width: 100%;
-    
+    float: left;
+    height: auto;
+    padding: 0 1px;
+
+}
+
+.gallery-items li{
+    width: 25%;
+    float: left;
+    padding: 0px 1px 2px;
+
+}
+
+.gallery-items li img{
+    width: 100%;
+    height: auto;
 }
