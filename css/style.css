@@ -657,5 +657,12 @@ ul{
 .gallery-inner {
     width: 100%;
     float: left;
-    po
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-overlay{
+    width: 100%;
+    position: absolute;
+    left: 0;
 }
