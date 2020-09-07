@@ -667,5 +667,5 @@ ul{
     left: 0;
     top: 50%;
     text-align: center;
-    
+    -webkit-transform: translateY(-50%)
 }
