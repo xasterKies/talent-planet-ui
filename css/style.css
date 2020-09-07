@@ -625,3 +625,7 @@ ul{
 }
 
 #filter-list li.active,
+#filter-list li:hover{
+    background-color: #53bff0;
+    color: #fff;
+}
