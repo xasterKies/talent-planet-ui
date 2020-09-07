@@ -668,8 +668,8 @@ ul{
     top: 50%;
     text-align: center; 
     -webkit-transform: translateY(-50%) scale(0);
-    -webkit-transform: translateY(-50%) scale(0);
-    -webkit-transform: translateY(-50%) scale(0);
-    -webkit-transform: translateY(-50%) scale(0);
+    -ms-transform: translateY(-50%) scale(0);
+    -moz-transform: translateY(-50%) scale(0);
+    transform: translateY(-50%) scale(0);
     
 }
