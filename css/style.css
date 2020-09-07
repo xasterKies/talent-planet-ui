@@ -666,6 +666,10 @@ ul{
     position: absolute;
     left: 0;
     top: 50%;
-    text-align: center; -webkit-transform: translateY(-50%) scale(0);
+    text-align: center; 
+    -webkit-transform: translateY(-50%) scale(0);
+    -webkit-transform: translateY(-50%) scale(0);
+    -webkit-transform: translateY(-50%) scale(0);
+    -webkit-transform: translateY(-50%) scale(0);
     
 }
