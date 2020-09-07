@@ -680,5 +680,10 @@ ul{
 .gallery-overlay a {
     width: 60px;
     line-height: 60px;
-    back
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color:#a3297a;
+
 }
