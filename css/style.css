@@ -695,5 +695,6 @@ ul{
 }
 
 .gallery-items li:hover img{
+    -webkit-transform:scale(1.2);
     
 }
