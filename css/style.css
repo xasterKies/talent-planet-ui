@@ -685,5 +685,10 @@ ul{
     text-align: center;
     display: inline-block;
     color:#a3297a;
+    font-size: 20px;
 
+}
+
+.gallery-overlay a {
+    
 }
