@@ -678,5 +678,7 @@ ul{
 }
 
 .gallery-overlay a {
-    width
+    width: 60px;
+    line-height: 60px;
+    back
 }
