@@ -594,4 +594,7 @@ h4.team-member-designation{
     color: white;
 }
 
-  
+ul{
+    margin: 0;
+    list-style: none;
+}
