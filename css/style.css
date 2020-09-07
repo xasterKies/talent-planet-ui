@@ -603,4 +603,6 @@ ul{
     display: inline-block;
     border: 1px solid #dddddd;
     border-radius: 30px;
+    padding: 4px;
+    margin: 0 0 60px;
 }
