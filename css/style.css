@@ -690,5 +690,8 @@ ul{
 }
 
 .gallery-overlay a {
-    
+    background: #a3297a;
+    color: #fff;
 }
+
+.gallery-items li-:hover .gallery
