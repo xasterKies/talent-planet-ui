@@ -694,4 +694,6 @@ ul{
     color: #fff;
 }
 
-.gallery-items li-:hover .gallery
+.gallery-items li:hover img{
+    
+}
