@@ -695,8 +695,10 @@ ul{
 }
 
 .gallery-items li:hover img{
-    
-
+    -webkit-tranform:scale(1.2);
+    -webkit-tranform:scale(1.2);
+    -webkit-tranform:scale(1.2);
+    -webkit-tranform:scale(1.2); 
 }
 
 .gallery-items li:hover .gallery-overlay {
