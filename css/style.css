@@ -689,7 +689,7 @@ ul{
 
 }
 
-.gallery-overlay a {
+.gallery-overlay a:hover {
     background: #a3297a;
     color: #fff;
 }
