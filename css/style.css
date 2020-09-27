@@ -701,3 +701,7 @@ ul{
     transform: translateY(-50%) scale(1);
 
 }
+
+.gallery-items li:hover .gallery-overlay {
+    
+}
