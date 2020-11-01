@@ -24,6 +24,8 @@ class Event(models.Model):
     whatsapp_link = models.URLField(max_length=200)
     instagram_link = models.URLField(max_length=200)
     event_link = models.URLField(max_length=200)
+    active = models.BooleanField(default=True)
+    created = models.DateField(auto_now_add=True)
 
     class Meta:
         ordering = ('name',)
