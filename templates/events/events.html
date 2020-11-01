@@ -23,7 +23,7 @@
             <div class="col-md-4">
                 <div class="latest-news-wrap">
                         <div class="news-img">
-                            <img src="{{ event.image }}" alt="" class="img-responsive">
+                            <img src="{% if event.image %}{{ event.image.url }}{% else %}{% static 'img/talent icon.jpg' %}{% endif %}" alt="" class="img-responsive">
                             <div class="date">
                                 <span>12</span>
                                 <span>June</span>
@@ -34,7 +34,7 @@
                         <i class="fa fa-whatsapp"></i>
                         <i class="fa fa-instagram"></i>
                         <p>
-                            Registration For Talent planet is now open
+                            {{ event.description }}
                             <br>
                             
                         </p><br>
