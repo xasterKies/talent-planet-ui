@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/templatemo_style.css">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/camera.css' %}">
+    <link rel="stylesheet" href="{% static 'css/templatemo_style.css' %}">
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     
 
 
@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="" class="navbar-brand">
-                    <img src="img/talent planet logo.png" alt="logo" class="logo pull-left logo-responsive d-inline-block align-top">
+                    <img src="{% static 'img/talent planet logo.png' %}" alt="logo" class="logo pull-left logo-responsive d-inline-block align-top">
                     <span class="name pull-left">Talent Planet</span>
                 </a>
             </div>
@@ -166,92 +166,6 @@
     <!------------------Services section end--------------------->
 
 
-
-    <!------------------Gallery section section end--------------------->
-
-    <!-- <section class="work" id="gallery"><br><br><br><br><br>
-        <div class="container=fluid">
-            <div class="section-title text-center">
-                <h2><b>Our Gallery</b></h2>
-            </div>
-            <br><br>
-            <div class="row no-gutters">
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/kemda sandra winner of slam the skill.jpg" title="Kemda Sandra winner of Slam the Skill">
-                            <img src="img/kemda sandra winner of slam the skill.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/thr.jpg" title="Three Talent Planet Ambassadors">
-                            <img src="img/thr.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/4 people shooting talent planet.jpg" title="Four Talent Planet Ambassadors">
-                            <img src="img/4 people shooting talent planet.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    
-                </div>
-
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/thr.jpg" title="Three Talent Planet Ambassadors">
-                            <img src="img/thr.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="row no-gutters">
-
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/thr.jpg" title="Three Talent Planet Ambassadors">
-                            <img src="img/thr.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/4 people shooting talent planet.jpg" title="Four Talent Planet Ambassadors">
-                            <img src="img/4 people shooting talent planet.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    
-                </div>
-
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/kemda sandra winner of slam the skill.jpg" title="Kemda Sandra winner of Slam the Skill">
-                            <img src="img/kemda sandra winner of slam the skill.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="img-wrapper">
-                        <a href="img/4 people shooting talent planet.jpg" title="Four Talent Planet Ambassadors">
-                            <img src="img/4 people shooting talent planet.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    
-                </div>
-
-                
-            </div>
-        </div>
-    </section> -->
     <br><br>
     <div class="body">
     <section id="gallery" class=" section-spacing bottom-none inverse-bg">
@@ -281,9 +195,9 @@
                     perspective: 1000px; transform-style: preserve-3d; position: absolute;
                     transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
                     <div class="gallery-inner col-md-3">
-                        <img src="img/sandra 14.jpg" alt="">
+                        <img src="{% static 'img/sandra 14.jpg' %}" alt="">
                         <div class="gallery-overlay">
-                            <a href="img/sandra 14.jpg" class="venobox vbox-item" data-gallery="gallery">
+                            <a href="{% static 'img/sandra 14.jpg' %}" class="venobox vbox-item" data-gallery="gallery">
                             <i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
@@ -293,9 +207,9 @@
                     perspective: 1000px; transform-style: preserve-3d; position: absolute;
                     transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
                     <div class="gallery-inner col-md-3">
-                        <img src="img/quote.jpg" alt="">
+                        <img src="{% static 'img/quote.jpg' %}" alt="">
                         <div class="gallery-overlay">
-                            <a href="img/sandra 14.jpg" class="venobox vbox-item" data-gallery="gallery">
+                            <a href="{% static 'img/sandra 14.jpg' %}" class="venobox vbox-item" data-gallery="gallery">
                             <i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
@@ -332,7 +246,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-block">
                     <div class="team-man">
-                        <img src="img/jezeh clive.jpg" alt="jezeh">
+                        <img src="{% static 'img/jezeh clive.jpg' %}" alt="jezeh">
                     </div>
                     <div class="team-description">
                         <div class="team-title">
@@ -352,7 +266,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-block">
                     <div class="team-man">
-                        <img src="img/jezeh clive.jpg" alt="jezeh">
+                        <img src="{% static 'img/jezeh clive.jpg' %}" alt="jezeh">
                     </div>
                     <div class="team-description">
                         <div class="team-title">
@@ -373,7 +287,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-block">
                     <div class="team-man">
-                        <img src="img/jezeh clive.jpg" alt="jezeh">
+                        <img src="{% static 'img/jezeh clive.jpg' %}" alt="jezeh">
                     </div>
                     <div class="team-description">
                         <div class="team-title">
@@ -394,7 +308,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-block">
                     <div class="team-man">
-                        <img src="img/personality 1.jpg" alt="jezeh">
+                        <img src="{% static 'img/personality 1.jpg' %}" alt="jezeh">
                     </div>
                     <div class="team-description">
                         <div class="team-title">
@@ -438,7 +352,7 @@
                 <div class="col-md-4">
                     <div class="latest-news-wrap">
                             <div class="news-img">
-                                <img src="img/talent planet slam the skill.jpg" alt="" class="img-responsive">
+                                <img src="{% static 'img/talent planet slam the skill.jpg' %}" alt="" class="img-responsive">
                                 <div class="date">
                                     <span>12</span>
                                     <span>June</span>
@@ -461,7 +375,7 @@
                 <div class="col-md-4">
                     <div class="latest-news-wrap">
                             <div class="news-img">
-                                <img src="img/talent planet slam the skill.jpg" alt="" class="img-responsive">
+                                <img src="{% static 'img/talent planet slam the skill.jpg' %}" alt="" class="img-responsive">
                                 <div class="date">
                                     <span>12</span>
                                     <span>June</span>
@@ -486,7 +400,7 @@
                     <div class="col-md-4">
                         <div class="latest-news-wrap">
                                 <div class="news-img">
-                                    <img src="img/coming soon.jpg" alt="" class="img-responsive">
+                                    <img src="{% static 'img/comming soon.jpg' %}" alt="" class="img-responsive">
                                     <div class="date">
                                         <span>--</span>
                                         <span>--</span>
@@ -541,13 +455,13 @@
     <!------------------footer section end--------------------->
 
 
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/typedlib/typed.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script src="js/unslider.min.js"></script>
-    <script src="js/templatemo_script.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/typedlib/typed.min.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/jquery.singlePageNav.min.js' %}"></script>
+    <script src="{% static 'js/unslider.min.js' %}"></script>
+    <script src="{% static 'js/templatemo_script.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>
