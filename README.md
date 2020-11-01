@@ -1,2 +1,2 @@
-# talent-planet frontend (TAP)
-This is going to provide the talent planet front end for organisation
+# Talent-Planet Backend
+This is the initial backend for Talent-Planet
