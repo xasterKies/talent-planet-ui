@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block events %}
+<!------------------Event section start--------------------->
+
+ <section class="event" id="event">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-title text-center">
+                    <h2><b>Events</b></h2>
+                    <h3>Recent Events</h3>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="news-active">
+            {% for event in object_list %}
+            <div class="col-md-4">
+                <div class="latest-news-wrap">
+                        <div class="news-img">
+                            <img src="{% if event.image %}{{ event.image.url }}{% else %}{% static 'img/talent icon.jpg' %}{% endif %}" alt="" class="img-responsive">
+                            <div class="date">
+                                <span>{{ event.date|date:"j" }}</span>
+                                <span>{{ event.date|date:"F" }}</span>
+                            </div>
+                        </div>
+                    <div class="news-content">
+                        <a href="{{ event.facebook_link }}" class="btn1"><i class="fa fa-facebook"></i></a>
+                        <a href="{{ event.whatsapp_link }}" class="btn1"><i class="fa fa-whatsapp"></i></a>
+                        <a href="{{ event.instagram_link }}" class="btn1"><i class="fa fa-instagram"></i></a>
+                        <p>
+                            {{ event.description }}
+                            <br> 
+                        </p><br>
+                        <a href="{{ event.event_link }}" class="btn1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+     </div>
+     </div>
+
+
+</section>
+
+<!------------------Event section end--------------------->
+
+{% endblock events %}
+ 
