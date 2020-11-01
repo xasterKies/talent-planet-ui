@@ -30,15 +30,14 @@
                             </div>
                         </div>
                     <div class="news-content">
-                        <i class="fa fa-facebook"></i>
-                        <i class="fa fa-whatsapp"></i>
-                        <i class="fa fa-instagram"></i>
+                        <a href="{{ event.facebook_link }}" class="btn1"><i class="fa fa-facebook"></i></a>
+                        <a href="{{ event.whatsapp_link }}" class="btn1"><i class="fa fa-whatsapp"></i></a>
+                        <a href="{{ event.instagram_link }}" class="btn1"><i class="fa fa-instagram"></i></a>
                         <p>
                             {{ event.description }}
-                            <br>
-                            
+                            <br> 
                         </p><br>
-                        <a href="" class="btn1">Read More</a>
+                        <a href="{{ event.event_link }}" class="btn1">Read More</a>
                     </div>
                 </div>
             </div>
