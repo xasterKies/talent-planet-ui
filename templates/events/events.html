@@ -25,8 +25,8 @@
                         <div class="news-img">
                             <img src="{% if event.image %}{{ event.image.url }}{% else %}{% static 'img/talent icon.jpg' %}{% endif %}" alt="" class="img-responsive">
                             <div class="date">
-                                <span>12</span>
-                                <span>June</span>
+                                <span>{{ event.date|date:"j" }}</span>
+                                <span>{{ event.date|date:"F" }}</span>
                             </div>
                         </div>
                     <div class="news-content">
@@ -43,26 +43,6 @@
             </div>
             {% endfor %}
 
-                <div class="col-md-4">
-                    <div class="latest-news-wrap">
-                            <div class="news-img">
-                                <img src="{% static 'img/comming soon.jpg' %}" alt="" class="img-responsive">
-                                <div class="date">
-                                    <span>--</span>
-                                    <span>--</span>
-                                </div>
-                            </div>
-                        <div class="news-content">
-                            <i class="fa fa-facebook"></i>
-                            <i class="fa fa-whatsapp"></i>
-                            <i class="fa fa-instagram"></i>
-                            <p>
-                                <h4>Coming Soon!</h4>
-                            </p><br>
-                            <a href="" class="btn1">Coming Soon</a>
-                        </div>
-                    </div>
-                </div>
         </div>
      </div>
      </div>
