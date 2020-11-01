@@ -19,6 +19,7 @@ class Event(models.Model):
     name = models.CharField(max_length = 200, db_index=True)
     slug = models.SlugField(max_length = 200, db_index=True)
     image = models.ImageField(upload_to='gallery/%Y/%m', blank=True)
+    date = models.DateField()
     description = models.TextField(blank=True)
     facebook_link = models.URLField(max_length=200, blank=True)
     whatsapp_link = models.URLField(max_length=200, blank=True)
