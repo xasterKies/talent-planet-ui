@@ -3,7 +3,7 @@ This is the initial backend for Talent-Planet
 
 Presently, there is an event app that can be used to manage events via the admin panel
 
-# Set up
+# Set ups for dev
 Steps:
 
 1. Clone/pull/download this repository
